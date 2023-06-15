@@ -1,6 +1,6 @@
 headers = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer 66ad023e-739a-409e-873d-13f0235c6610"
+    "Content-Type": "application/json"
+
 }
 
 user_body = {
@@ -9,12 +9,7 @@ user_body = {
     "address": "г. Москва, ул. Пушкина, д. 10"
 }
 
-product_ids = {
-    "ids": [1, 2, 3]
-}
-
 kit_body = {
-    "cardId": 1,
     "name": "Мой набор"
 }
 
