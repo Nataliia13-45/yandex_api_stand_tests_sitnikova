@@ -19,23 +19,3 @@ def post_new_user_kit(body, auth_token):
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_USER_KIT_PATH,
                          json=body,
                          headers=headers_with_token)
-
-
-
-#response = post_new_user(data.user_body);
-#print(response.status_code)
-#print(response.json())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
